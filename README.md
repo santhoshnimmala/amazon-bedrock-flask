@@ -6,13 +6,14 @@ amazon-bedrock-flask
 Clone the repo
 
 ```bash
-git clone https://github.com/build-on-aws/amazon-bedrock-quick-start.git
+git clone https://github.com/santhoshnimmala/amazon-bedrock-flask.git
 ```
 
 Install required packages
 
 ```bash
-pip install -r requirements.txt
+pip install Flask boto3 langchain
+
 ```
 
 ### Chatbot
@@ -20,5 +21,6 @@ pip install -r requirements.txt
 To interact with a chatbot built using Amazon Bedrock, LangChain, and Streamlit, run:
 
 ```bash
-streamlit run chat_bedrock_st.py
+python Fast_Gen_AI.py
+
 ```
